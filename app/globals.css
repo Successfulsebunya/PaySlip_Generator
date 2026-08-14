@@ -3,3 +3,5 @@
 /* Keep the hidden file picker inside the logo control so it cannot cover text fields. */
 .upload{position:relative}
 .upload input[type=file]{display:none}
+.preview-action-group{display:flex;gap:12px}
+.primary:disabled{cursor:wait;opacity:.65}
